@@ -1,8 +1,7 @@
 
-console.log('hi')
-
 async function helloAsyncFunction(name){
-    return `hello ${name}`;
+    var a = `hello ${name}`;
+    return a;
 }
 
 
