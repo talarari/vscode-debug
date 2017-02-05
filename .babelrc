@@ -6,5 +6,6 @@
     "plugins": [
         "transform-regenerator"
     ],
-    "sourceMaps": "both"
+    "sourceMaps": "inline",
+    "retainLines":true
 }

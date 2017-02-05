@@ -8,8 +8,11 @@
             "type": "node2",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceRoot}/src/index.js",
-            "cwd": "${workspaceRoot}"
+            "program": "${workspaceRoot}/lib/index.js",
+            "cwd": "${workspaceRoot}",
+            "sourceMaps": true,
+            "outFiles": ["${workspaceRoot}/lib/**"],
+            "smartStep": true
         }
     ]
 }
